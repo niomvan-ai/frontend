@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { configDefaults } from 'vitest/config';
 
 export default defineConfig({
   plugins: [react()],
@@ -10,12 +9,5 @@ export default defineConfig({
   },
   optimizeDeps: {
     include: ["react", "react-dom", "react-router-dom", "@vitejs/plugin-react"],
-  },
-  test: {
-    globals: true,
-    environment: 'jsdom',
-    setupFiles: './src/setupTests.js',
-    include: ['src/tests/**/*.test.{js,jsx}'],
-    exclude: [...configDefaults.exclude, 'node_modules'],
   },
 });

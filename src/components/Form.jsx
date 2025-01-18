@@ -23,12 +23,8 @@ function Form({ route, method }) {
             localStorage.setItem(ACCESS_TOKEN, res.data.access || res.data.tokens.access);
             localStorage.setItem(REFRESH_TOKEN, res.data.refresh || res.data.tokens.refresh);
             localStorage.setItem("username", username);
-
-            if (method === "login") {
-                navigate("/");
-            } else {
-                navigate("/profile-setup");
-            }
+            
+            navigate("/");
         } catch (error) {
             console.error("Error during submission:", error.response?.data || error.message);
 
