@@ -2,7 +2,7 @@ import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
 const api = axios.create({
-  baseURL: "https://web-production-724a2.up.railway.app/api/",
+  baseURL: "http://127.0.0.1/api/",
 });
 
 api.interceptors.request.use(

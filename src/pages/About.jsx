@@ -6,28 +6,28 @@ const teamMembers = [
     name: "Nimit Jalan",
     role: "Full-Stack Developer",
     bio: "Passionate about building beautiful interfaces and designing scalable efficient, scalable systems.",
-    image: "https://web-production-724a2.up.railway.app/media/about_images/nimit.png",
+    image: "http://127.0.0.1/media/about_images/nimit.png",
     type: "team", // Added to distinguish regular team members
   },
   {
     name: "Vansh Agarwal",
     role: "Test Engineer",
     bio: "Loves testing the robust APIs, ensuring the quality of the product, and providing feedback and improvements, every step of the way.",
-    image: "https://web-production-724a2.up.railway.app/media/about_images/vansh.png",
+    image: "http://127.0.0.1/media/about_images/vansh.png",
     type: "team", // Added to distinguish regular team members
   },
   {
     name: "Omisha Shetty",
     role: "Marketing Specialist",
     bio: "Focuses on creating attractive visuals and engaging content to promote and showcase the product.",
-    image: "https://web-production-724a2.up.railway.app/media/about_images/omisha.png",
+    image: "http://127.0.0.1/media/about_images/omisha.png",
     type: "team", // Added to distinguish regular team members
   },
   {
     name: "Dr. Puneet Jalan",
     role: "Radiologist",
     bio: "Professional Radiologist working at Sheikh Khalifa Speciality Hospital.",
-    image: "https://web-production-724a2.up.railway.app/media/about_images/puneet.png",
+    image: "http://127.0.0.1/media/about_images/puneet.png",
     type: "doctor", // Marked as doctor type
   },
 ];
