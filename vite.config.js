@@ -4,7 +4,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   root: ".", // Ensure it points to the directory containing `index.html`
-  base: "frontend/",
   build: {
     outDir: "dist",
   },
